@@ -7,7 +7,7 @@ h1{
 .hlw-peter{color: orange;
 
 }
-section{
+.flexible{
     display: flex;
     margin-bottom: 100px;
 }
@@ -40,6 +40,39 @@ body{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 40px;
+    border-radius: 10px;
+
+}
+h2{
+    font-size: 40px;
+}
+.bloom{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#exp-left {
+   
+    border-left: 7px solid; 
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+   
+   
+    
+    
+}
+#exp-right{   border-left: 7px solid; 
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+
 }
 
 
